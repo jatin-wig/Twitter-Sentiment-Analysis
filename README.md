@@ -4,6 +4,10 @@ A lightweight NLP-powered sentiment analysis system that classifies tweets into 
 
 ---
 
+## Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/GTBRKzo82yw/hqdefault.jpg)](https://www.youtube.com/watch?v=GTBRKzo82yw)
+
 ## Problem Statement
 
 Social media platforms like Twitter are flooded with opinions, reactions, and emotions. Understanding sentiment at scale is valuable for:
@@ -40,6 +44,28 @@ Vectorizer: TfidfVectorizer (word-level, unigram + bigram support)
 Model: Logistic Regression (linear decision boundary for sentiment separation)
 ```
 ---
+# Setup Instructions
+
+## 1) Clone the Repository
+```bash
+
+git clone https://github.com/jatin-wig/Twitter-Sentiment-Analysis.git
+```
+
+## 2) Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## 3) Run the App
+```bash
+streamlit run app.py
+ ```
+or 
+```bash
+python -m streamlit run app.py 
+```
+--- 
 
 ## Demo
 
